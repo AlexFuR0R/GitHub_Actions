@@ -30,4 +30,4 @@ jobs:
         run: dotnet restore
 
       - name: Run dotnet format to check formatting
-        run: dotnet format --verify-no-changes
+        run: dotnet format --verify-no-changes github_actions.sln
